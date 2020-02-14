@@ -1,0 +1,14 @@
+.ldBar-label {
+  color: rebeccapurple;
+  font-family: 'varela round';
+  font-size: 1.5em;
+  font-weight: 900;
+  content: "pts";
+  text-align: center;
+}
+
+.ldBar-label:after {
+  content: "pts"; /* change from % to USD */
+  font-size: 0.6em;
+  padding-left: 0.2em;
+}
